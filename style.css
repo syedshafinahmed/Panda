@@ -1,20 +1,168 @@
-nav{
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
 }
 
-.search-parent{
+.search-parent {
     position: relative;
+    color: #BABABA;
 }
 
-.search-parent input{
+.search-parent input {
     background-color: rgb(241, 241, 241);
     border-radius: 66px;
     padding: 15px 30px;
     width: 500px;
+    border: none;
 }
 
-.search-parent i{
-    position: relative;
-    right: 50px;
+.container {
+    max-width: 1280px;
+    margin: auto;
 }
+
+.search-parent i {
+    position: absolute;
+    right: 16px;
+    top: 15px;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn {
+    width: 168px;
+    height: 52px;
+    border: none;
+    border-radius: 6px;
+    /* background-color: aqua; */
+    background: linear-gradient(to bottom, #FF589B, #FF136F);
+    color: white;
+
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(255, 19, 111, 0.3);
+}
+
+.btnt {
+    width: 168px;
+    height: 52px;
+    border: none;
+    border-radius: 6px;
+    /* background-color: aqua; */
+    background: black;
+    color: white;
+
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.mi {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 70px; */
+    margin-bottom: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: aqua;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    border-radius: 20px;
+    background-color: #facbdd;
+}
+
+.bgw{
+    background-color: #fdf3cc;
+}
+
+.milekha {
+    margin-top: 50px;
+    margin-left: 42px;
+}
+
+.watch{
+    display: flex;
+    background: linear-gradient(to bottom, #FF9C35, #FFD019);
+    width: 359px;
+    height: 120px;
+    justify-content: space-around;
+    margin-top: ;
+    border-radius: 16px;
+}
+.bag{
+    display: flex;
+    background: linear-gradient(to bottom, #FF589B, #FF136F);
+    width: 359px;
+    height: 120px;
+    justify-content: space-around;
+    margin-top: ;
+    border-radius: 16px;
+}.shoes{
+    display: flex;
+    background: linear-gradient(to bottom, #4289FF, #3F07F8);
+    width: 359px;
+    height: 120px;
+    justify-content: space-around;
+    margin-top: ;
+    border-radius: 16px;
+}
+
+.subcat{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories{
+    padding: 50px 45px 98px 45px;
+}
+
+.sh{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.tshoes{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 24px;
+    margin-bottom: 98px;
+}
+
+
