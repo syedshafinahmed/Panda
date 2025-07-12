@@ -167,7 +167,10 @@ nav {
     height: 73px;
     border: none;
     border-radius: 9px 0px 0px 9px;
+}
 
+.form input[type="text"]:focus{
+    border: none;
 }
 
 .btn2{
@@ -177,7 +180,6 @@ nav {
     font-size: 24px;
     font-weight: 500;
     border-radius: 0px 9px 9px 0px;
-    /* background-color: aqua; */
     background: linear-gradient(to bottom, #FF589B, #FF136F);
     color: white;
     margin: 16px 0px 200px 0px;
