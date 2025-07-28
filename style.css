@@ -200,3 +200,29 @@ nav {
     border-radius: 9px 0px 0px 9px;
     margin-top: 30px;
 }
+.footer-last img{
+    width: 32px;
+    height: 32px;
+}
+.fi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 200px;
+}
+.footer-last{
+    background-color: #fdf3cc;
+    height: 500px;
+    padding-top: 150px;
+}
+
+.footer-last h3, .footer-last p{
+    text-align: center;
+}
+.footer-last h3{
+    margin: 0px auto 50px auto;
+}
+.footer-last p{
+    margin-bottom: 50px;
+}
